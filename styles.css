@@ -176,7 +176,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background: url(bg-gif.gif);
+    background: url(images/bg-gif.gif);
     background-position: center;
     background-size: cover;
     padding: 50px 50px 0px 50px;
@@ -786,7 +786,7 @@ header {
     font-size: 16px;
     margin-top: 1rem;
     font-family: montserrat;
-    color: #666565;
+    color: white;
 }
 
 .card-content h3 {
@@ -890,6 +890,33 @@ header {
     .card-content h3 {
         font-size: 14px;
         font-weight: 600;
+    }
+    #next, #prev{
+        margin-top: 3.5em;
+        bottom: 0;
+    }
+
+    
+}
+
+@media (max-width: 445px){
+    #next, #prev{
+        margin-top: 2.5em;
+        bottom: 10;
+        left: 100px;
+
+    }
+    #next{
+        margin-left: 3em;
+    }
+    .item{
+        width: 320px;
+        height: 250px;
+        left: calc(50% - 160px);
+    }
+    .slide-txt{
+        margin-top: 25px;
+        font-size: 15px;
     }
 }
 
