@@ -176,7 +176,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background: url(images/bg-gif.gif);
+    background: url(bg-gif.gif);
     background-position: center;
     background-size: cover;
     padding: 50px 50px 0px 50px;
