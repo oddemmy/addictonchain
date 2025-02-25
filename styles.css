@@ -904,6 +904,21 @@ header {
         font-size: 12px;
         margin-top: 0.5rem;
     }
+    .byg{
+        margin: 15px;
+    }
+    .byg-h3{
+ 
+        font-size: 25px;
+        
+    }
+    .price-nxt{
+        font-size: 15px;
+        width: 200px;
+        margin: 15px;
+        padding: 7.5px;
+    }
+    
 }
 
 @media (max-width: 600px) {
