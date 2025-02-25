@@ -348,6 +348,15 @@ header {
     transition: 0.3s ease-in;
 }
 
+.hm-link{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.hm-link a{
+    color: #fff;
+}
+
 .name {
     font-weight: 500;
 }
@@ -620,7 +629,7 @@ header {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.:hover {
+.card:hover {
     transform: translateY(-5px);
     box-shadow: 5px 5px 15px rgb(245, 99, 2);}
 
@@ -660,6 +669,7 @@ header {
         gap: 30px;
     }
     .card {
+        width: 270px;
         padding: 10px;
     }
     .icon img {
