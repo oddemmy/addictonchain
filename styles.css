@@ -962,6 +962,9 @@ header {
         margin-top: 25px;
         font-size: 15px;
     }
+    .card{
+        width: 300px;
+    }
 }
 
 /* END OF THIRD SECTION */
