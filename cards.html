@@ -3,7 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marketing Plans</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+
+    <div class="welcome-text" style="color: #cd4507; text-align: center;">
+       <h1 class="h-txt">Welcome To Addict's Marketing</h1>
+       <p class="b-txt">These Plan's are the best plans to take your project to the moon</p>
+       <p class="b-txt">You can pick the plan that best suits your project below, <br> make payment by copying my wallet address below and proceed to the the link below <br> my address for your payment confirmation.</p>
+    </div>
+    
+    <section class="prices">
+        <h1 class="h-txt" style="color: #cd4507; text-align: center; font-weight: 800;">Prices</h1>
+        <div class="price-card-con">
+            <div class="price-card">
+                <div class="price-card-child">
+                    <div class="plan-hd">
+                        <h1>Basic</h1>
+                       <div class="line"></div>
+                    </div>
+    
+                    <div class="plan-bd">
+                        <p class="price">$250/Wk</p>
+                        <p>✔ Tweets</p>
+                        <p>✔ Telegram Calls</p>
+                    </div>
+                     
+                    <div class="pay">
+                        <div class="wallet-container">
+                            <span class="wallet-address" id="wallet">BPVLgPe2mPPd8mZr2K4eUDnzdGopb371n3hCU6JB9gTd</span>
+                            <button class="copy-btn" onclick="copyWallet()">Copy</button>
+                        </div>
+                        <div class="confirm">
+                            <a href="https://t.me/addictonchain" class="confirm" target="_blank">Confirm your pay in dm</a>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+
+
+            <div class="price-card">
+                <div class="plan-hd">
+                    <h1>premium</h1>
+                   <div class="line"></div>
+                </div>
+
+                <div class="plan-bd">
+                    <p class="price">$750/Wk</p>
+                    <p>✔ Tweets</p>
+                    <p>✔ Telegram Calls</p>
+                    <p>✔ Private Cabal call</p>
+                    <p>✔ Shill in whale lounges</p>
+                    <p>✔ 10 verified raiders</p>
+                </div>
+                 
+                <div class="pay">
+                    <div class="wallet-container">
+                        <span class="wallet-address" id="wallet">BPVLgPe2mPPd8mZr2K4eUDnzdGopb371n3hCU6JB9gTd</span>
+                        <button class="copy-btn" onclick="copyWallet()">Copy</button>
+                    </div>
+                    <div class="confirm">
+                        <a href="https://t.me/addictonchain" class="confirm" target="_blank">Confirm your pay in dm</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="price-card">
+                <div class="plan-hd">
+                    <h1>Premium+</h1>
+                   <div class="line"></div>
+                </div>
+
+                <div class="plan-bd">
+                    <p class="price">$1250/Wk</p>
+                    <p>✔ Tweets</p>
+                    <p>✔ Telegram Calls</p>
+                    <p>✔ Private Cabal call</p>
+                    <p>✔ Shill in whale lounges</p>
+                    <p>✔ 5 KOLs</p>
+                    <p>✔ 25 verified raiders</p>
+                    <p>✔ A content writer</p>
+                </div>
+                 
+                <div class="pay">
+                    <div class="wallet-container">
+                        <span class="wallet-address" id="wallet">BPVLgPe2mPPd8mZr2K4eUDnzdGopb371n3hCU6JB9gTd</span>
+                        <button class="copy-btn" onclick="copyWallet()">Copy</button>
+                    </div>
+                    <div class="confirm">
+                        <a href="https://t.me/addictonchain" class="confirm" target="_blank">Confirm your pay in dm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="back-home" style="text-align: center; margin: 25px;">
+        <a href="index.html" style="font-size: 25px; color: orangered;">Home>></a>
+    </div>
+
+    <script>
+        function copyWallet() {
+            const walletText = document.getElementById("wallet").innerText;
+            const tempInput = document.createElement("textarea");
+            tempInput.value = walletText;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand("copy");  // Fallback method for older browsers
+            document.body.removeChild(tempInput);
+
+            const button = document.querySelectorAll(".copy-btn");
+            button.innerText = "Copied!";
+            setTimeout(() => button.innerText = "Copy", 2000);
+        }
+    </script>
+
+</body>
+</html>ing Plans</title>
     <link rel="stylesheet" href="style.css">
     
 </head>
